@@ -94,8 +94,9 @@ html,body{
 }
 .contact-info {
     width: 350px;
-    background: #f9f9f9;
+    background:gray ;
     padding: 50px 40px 50px;
+    display: block;
 
 }
 .contact-info .info-box{
@@ -155,7 +156,7 @@ section div h1, section div p {
     box-shadow: 0 4px 8px 0 rgba(0.2, 0.4, 0.6, 0.8);
 }
 .contact-icon{
-    background-color: darkslategray;
+    background-color: dimgray;
     width: 25px;
     height: 25px;
     padding: 12px 12px;
