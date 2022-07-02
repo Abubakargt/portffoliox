@@ -144,16 +144,20 @@ section div h1, section div p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /*display: inline-block;*/
 
 
 }
 .skill{
+    /*height: 40px;*/
     width: 200px;
     margin: 15px 10px;
-    padding: 0 10px;
+    padding: 10px 10px;
     text-align: center;
     background-color: dimgray;
     box-shadow: 0 4px 8px 0 rgba(0.2, 0.4, 0.6, 0.8);
+    /*display: inline-block;*/
+    border-radius: 4px;
 }
 .contact-icon{
     background-color: dimgray;
@@ -182,7 +186,7 @@ footer{
     background-color:dimgray;
 }
 h3{
-    font-size: 20px;
+    font-size: 23px;
     margin: auto;
     text-align: center;
     color: white;
@@ -211,4 +215,13 @@ textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+h3.minor{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: serif;
+    font-style: italic;
+
 }
